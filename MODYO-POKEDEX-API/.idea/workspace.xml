@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b8aad16-aeee-4e68-a951-7216c3a5ff9e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iWgJS5qO9hS5Ug4zy2e9hheKIr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Leon\Documents\MODYO-POKEDEX-API\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Application (1)">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modyo.Application" />
+      <module name="MODYO-POKEDEX-API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modyo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modyo.pokedex.Application" />
+      <module name="MODYO-POKEDEX-API" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application (1)" />
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b8aad16-aeee-4e68-a951-7216c3a5ff9e" name="Default Changelist" comment="" />
+      <created>1602028689317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602028689317</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1602029646095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Project_Structure/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602029646095" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1602045006716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602045006716" />
+    <state x="632" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602044767052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="632" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602044767052" />
+    <state x="441" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602045228145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602045228145" />
+    <state x="722" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602043074441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="722" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602043074441" />
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1602048707114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602048707114" />
+    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1602048707114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="306" key="GridCell.Tab.0.center/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602048707114" />
+    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1602048707114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="306" key="GridCell.Tab.0.left/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602048707114" />
+    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1602048707114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="306" key="GridCell.Tab.0.right/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602048707114" />
+    <state x="667" y="276" width="586" height="488" key="find.popup" timestamp="1602047710207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="276" width="586" height="488" key="find.popup/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602047710207" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1602047320413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602047320413" />
+  </component>
+</project>
