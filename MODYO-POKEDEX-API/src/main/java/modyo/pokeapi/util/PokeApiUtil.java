@@ -8,27 +8,27 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 
 public class PokeApiUtil {
 
-    public static List<List<String>> getEvolves(JSONObject jsonObject) {
+    public static Map<String,String> getEvolves(JSONObject jsonObject) {
 
-        List<List<String>> evolutions = new ArrayList<>();
+       Map<String,String> evolutions = new HashMap<>();
 
         jsonObject = jsonObject.getJSONObject(PokeApiConstants.CHAIN);
+        evolutions.put(jsonObject.getJSONObject(PokeApiConstants.SPECIES).getString(PokeApiConstants.NAME) , getIdFromUrl(jsonObject.getJSONObject(PokeApiConstants.SPECIES).getString(PokeApiConstants.URL)));
 
         JSONArray evolves_to = jsonObject.getJSONArray(PokeApiConstants.EVOLVES_TO);
         while (!evolves_to.isEmpty()) {
-            List<String> evolution = new ArrayList<>();
+
             for (Object object : evolves_to) {
                 JSONObject item = (JSONObject) object;
-                evolution.add(item.getJSONObject(PokeApiConstants.SPECIES).getString(PokeApiConstants.NAME));
+                evolutions.put(item.getJSONObject(PokeApiConstants.SPECIES).getString(PokeApiConstants.NAME) , getIdFromUrl(item.getJSONObject(PokeApiConstants.SPECIES).getString(PokeApiConstants.URL)));
 
             }
-            evolutions.add(evolution);
+
             evolves_to = evolves_to.getJSONObject(0).getJSONArray(PokeApiConstants.EVOLVES_TO);
         }
         return evolutions;
@@ -62,6 +62,7 @@ public class PokeApiUtil {
                 .weight(js.getInt(PokeApiConstants.WEIGHT))
                 .abilities(abilities)
                 .image(js.getJSONObject(PokeApiConstants.SPRITES).isNull(PokeApiConstants.FRONT_DEFAULT) ? "" : js.getJSONObject(PokeApiConstants.SPRITES).getString(PokeApiConstants.FRONT_DEFAULT))
+                .imageArtWork(js.getJSONObject(PokeApiConstants.SPRITES).getJSONObject(PokeApiConstants.OTHER).getJSONObject(PokeApiConstants.OFFICIAL_ART_WORK).isNull(PokeApiConstants.FRONT_DEFAULT) ? "" : js.getJSONObject(PokeApiConstants.SPRITES).getJSONObject(PokeApiConstants.OTHER).getJSONObject(PokeApiConstants.OFFICIAL_ART_WORK).getString(PokeApiConstants.FRONT_DEFAULT))
                 .type(types).build();
     }
 

@@ -9,6 +9,7 @@ import java.util.List;
 
 public interface IPokeApiService {
     public List<Pokemon> pokemon(String offSet) throws PokeApiException, Exception;
+
     public PokemonDetails pokemonDetails(String id) throws PokeApiException,Exception ;
 
 }

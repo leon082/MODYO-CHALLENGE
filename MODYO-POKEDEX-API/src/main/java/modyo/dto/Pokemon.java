@@ -25,6 +25,9 @@ public class Pokemon {
     @Getter
     @Setter
     private String image;
+    @Getter
+    @Setter
+    private String imageArtWork;
 
 
 }

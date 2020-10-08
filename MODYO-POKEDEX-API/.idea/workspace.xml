@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b8aad16-aeee-4e68-a951-7216c3a5ff9e" name="Default Changelist" comment="" />
+    <list default="true" id="5b8aad16-aeee-4e68-a951-7216c3a5ff9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modyo/controller/PokeDeskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modyo/service/ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modyo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modyo/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modyo/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modyo/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modyo/controller/PokeDexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modyo/controller/PokeDexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modyo/dto/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modyo/dto/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modyo/dto/PokemonDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modyo/dto/PokemonDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modyo/pokeapi/service/IPokeApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modyo/pokeapi/service/IPokeApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modyo/pokeapi/service/impl/PokeApiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modyo/pokeapi/service/impl/PokeApiServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modyo/pokeapi/util/PokeApiConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modyo/pokeapi/util/PokeApiConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modyo/pokeapi/util/PokeApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modyo/pokeapi/util/PokeApiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modyo/service/impl/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modyo/service/impl/ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MODYO-POKEDEX-API.kotlin_module" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +32,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1iWgJS5qO9hS5Ug4zy2e9hheKIr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,7 +44,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -38,6 +60,7 @@
     <option name="myCommands">
       <command value="mvn compile" />
       <command value="mvn clean" />
+      <command value="mvn install" />
     </option>
   </component>
   <component name="RunManager" selected="Application.Application (1)">
@@ -61,9 +84,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in MODYO-POKEDEX-API" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MODYO-POKEDEX-API" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application (1)" />
+        <item itemvalue="JUnit.All in MODYO-POKEDEX-API" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -90,10 +122,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602045006716" />
-    <state x="632" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602044767052">
+    <state x="632" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602100524196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="632" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602044767052" />
+    <state x="632" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602100524196" />
     <state x="441" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602045228145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -102,29 +134,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="722" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602043074441" />
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1602048707114">
+    <state width="1877" height="112" key="GridCell.Tab.0.bottom" timestamp="1602119991588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602048707114" />
-    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1602048707114">
+    <state width="1877" height="112" key="GridCell.Tab.0.bottom/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602119991588" />
+    <state width="1323" height="283" key="GridCell.Tab.0.bottom/1920.182.1366.728/0.0.1920.1040@1920.182.1366.728" timestamp="1602101648026" />
+    <state width="1877" height="112" key="GridCell.Tab.0.center" timestamp="1602119991588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.center/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602048707114" />
-    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1602048707114">
+    <state width="1877" height="112" key="GridCell.Tab.0.center/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602119991588" />
+    <state width="1323" height="283" key="GridCell.Tab.0.center/1920.182.1366.728/0.0.1920.1040@1920.182.1366.728" timestamp="1602101648026" />
+    <state width="1877" height="112" key="GridCell.Tab.0.left" timestamp="1602119991588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.left/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602048707114" />
-    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1602048707114">
+    <state width="1877" height="112" key="GridCell.Tab.0.left/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602119991588" />
+    <state width="1323" height="283" key="GridCell.Tab.0.left/1920.182.1366.728/0.0.1920.1040@1920.182.1366.728" timestamp="1602101648025" />
+    <state width="1877" height="112" key="GridCell.Tab.0.right" timestamp="1602119991588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.right/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602048707114" />
+    <state width="1877" height="112" key="GridCell.Tab.0.right/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602119991588" />
+    <state width="1323" height="283" key="GridCell.Tab.0.right/1920.182.1366.728/0.0.1920.1040@1920.182.1366.728" timestamp="1602101648026" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1602077918315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602077918315" />
     <state x="667" y="276" width="586" height="488" key="find.popup" timestamp="1602047710207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="276" width="586" height="488" key="find.popup/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602047710207" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1602047320413">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1602079855166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602047320413" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/1920.182.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602079855166" />
   </component>
 </project>

@@ -27,6 +27,10 @@ public class PokeApiConstants {
     public static final String FRONT_DEFAULT="front_default";
     public static final String WEIGHT="weight";
     public static final String SPRITES="sprites";
+    public static final String OTHER="other";
+    public static final String OFFICIAL_ART_WORK="official-artwork";
+
+
 
 
 

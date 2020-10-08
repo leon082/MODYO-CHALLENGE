@@ -1,0 +1,16 @@
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\pokeapi\util\PokeApiConstants.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\Application.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\controller\PokeDexController.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\pokeapi\service\IPokeApiService.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\pokeapi\service\impl\PokeApiServiceImpl.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\model\Response.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\pokeapi\exception\PokeApiException.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\util\Util.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\pokeapi\util\PokeApiUtil.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\dto\Pokemon.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\pokeapi\repository\IRepository.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\service\IService.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\dto\PokemonDetails.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\config\Configuration.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\pokeapi\repository\impl\RepositoryImpl.java
+D:\Leon\Documents\MODYO-CHALLENGE\MODYO-POKEDEX-API\src\main\java\modyo\service\impl\ServiceImpl.java

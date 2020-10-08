@@ -1,6 +1,7 @@
 package modyo.config;
 
 import modyo.pokeapi.util.PokeApiConstants;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;

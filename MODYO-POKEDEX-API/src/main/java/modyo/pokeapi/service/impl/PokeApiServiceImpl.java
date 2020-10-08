@@ -19,6 +19,7 @@ import org.springframework.web.client.HttpClientErrorException;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class PokeApiServiceImpl implements IPokeApiService {
@@ -38,7 +39,6 @@ public class PokeApiServiceImpl implements IPokeApiService {
             JSONObject js = PokeApiUtil.getBodyFromResponse(response);
             if (js == null) {
                 throw new PokeApiException(PokeApiConstants.ERROR_SERVICE, response.getStatusCode().value());
-
             }
 
             JSONArray array = js.getJSONArray(PokeApiConstants.RESULTS);
@@ -65,7 +65,7 @@ public class PokeApiServiceImpl implements IPokeApiService {
             throw new PokeApiException(PokeApiConstants.ERROR_SERVICE, e.getStatusCode().value());
         } catch (Exception e) {
 
-            throw new Exception(HttpStatus.INTERNAL_SERVER_ERROR.toString());
+            throw new Exception(HttpStatus.INTERNAL_SERVER_ERROR.toString(),e);
 
         }
 
@@ -101,17 +101,31 @@ public class PokeApiServiceImpl implements IPokeApiService {
                 throw new PokeApiException(PokeApiConstants.ERROR_SERVICE, evolutions.getStatusCode().value());
             }
 
-            pokemonDetails.setEvolutions(PokeApiUtil.getEvolves(js));
+            Map<String, String> evolves = PokeApiUtil.getEvolves(js);
+            List<Pokemon> pokemonEvolves = new ArrayList<>();
+            evolves.forEach((k,v) -> {
+                final ResponseEntity<String> item = repository.executeGET(PokeApiConstants.POKEMON_DETAIL_PATH + v);
+                JSONObject jsItem = PokeApiUtil.getBodyFromResponse(item);
+                Pokemon pokemonItem = PokeApiUtil.pokemonFromPokeApi(jsItem);
+                pokemonItem.setId(PokeApiUtil.getIdFromUrl(v));
+                pokemonEvolves.add(pokemonItem);
+
+            });
+
+            pokemonDetails.setEvolutions(pokemonEvolves);
             return pokemonDetails;
         } catch (HttpClientErrorException e) {
 
             throw new PokeApiException(PokeApiConstants.ERROR_SERVICE, e.getStatusCode().value());
         } catch (Exception e) {
 
-            throw new Exception(HttpStatus.INTERNAL_SERVER_ERROR.toString());
+            throw new Exception(HttpStatus.INTERNAL_SERVER_ERROR.toString(),e);
         }
 
     }
+
+
+
 
 
 }

@@ -25,8 +25,10 @@ public class ServiceImpl implements IService {
         try {
             return Response.builder().data(pokeapiServices.pokemon(offSet)).statusCode(HttpStatus.OK.value()).build();
         }catch (PokeApiException e) {
+            e.printStackTrace();
            return Util.buildErrorResponse(e.getStatusCode(),e.getMessage());
         } catch (Exception e) {
+            e.printStackTrace();
             return Util.buildErrorResponse(HttpStatus.INTERNAL_SERVER_ERROR.value(),e.getMessage());
         }
     }
@@ -36,8 +38,10 @@ public class ServiceImpl implements IService {
         try {
             return Response.builder().data(pokeapiServices.pokemonDetails(id)).statusCode(HttpStatus.OK.value()).build();
         }catch (PokeApiException e) {
+           e.printStackTrace();
             return Util.buildErrorResponse(e.getStatusCode(),e.getMessage());
         } catch (Exception e) {
+            e.printStackTrace();
             return Util.buildErrorResponse(HttpStatus.INTERNAL_SERVER_ERROR.value(),e.getMessage());
         }
     }

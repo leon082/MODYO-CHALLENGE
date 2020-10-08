@@ -15,5 +15,5 @@ public class PokemonDetails {
     private String description;
     @Getter
     @Setter
-    private List<List<String>> evolutions;
+    private List<Pokemon> evolutions;
 }

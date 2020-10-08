@@ -3,6 +3,7 @@ package modyo.controller;
 import modyo.model.Response;
 import modyo.service.IService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +17,7 @@ public class PokeDexController {
     IService pokemonService;
 
     @GetMapping("/pokemons/{offSet}")
+    @Cacheable(cacheNames = "pokemons")
     public Response pokemons(@PathVariable("offSet") String offSet, HttpServletResponse response){
         final Response pokemons = pokemonService.pokemons(offSet);
             response.setStatus(pokemons.getStatusCode());
@@ -23,6 +25,7 @@ public class PokeDexController {
     }
 
     @GetMapping("/pokemonDetails/{id}")
+    @Cacheable(cacheNames = "pokemonDetails")
     public Response pokemonDetails(@PathVariable("id") String id,HttpServletResponse response){
 
         final Response pokemonDetails =  pokemonService.pokemonDetails(id);
